@@ -1,0 +1,168 @@
+datasets intilales
+d1:4185623.0
+d2:4163084.0
+d3:245.0
+d4:4170398.0
+d5:4161831.0
+d6:4163196.0
+d7:4182323.0
+d8:4150602.0
+d9:4222080.0
+d10:4149806.0
+d11:4222080.0
+d12:837.0
+d13:4163196.0
+d14:4155530.0
+d15:4149806.0
+d16:4170858.0
+d17:4152397.0
+d18:4143677.0
+d19:4155664.0
+d20:4173072.0
+d21:4181449.0
+d22:4141389.0
+d23:4155530.0
+d24:4170398.0
+d25:4173072.0
+d26:837.0
+d27:4222080.0
+d28:4163084.0
+d29:4157647.0
+d30:304.0
+d31:4182323.0
+d32:4152397.0
+d33:4150602.0
+d34:4181449.0
+d35:4222080.0
+d36:4222080.0
+d37:4161831.0
+d38:4141389.0
+d39:4157647.0
+d40:4185623.0
+d41:4155664.0
+d42:4170858.0
+d43:4143677.0
+
+datasets g�n�r�es
+du1:271248.0
+du2:4157647.0
+du3:4163084.0
+du4:4157647.0
+du5:4171851.0
+du6:4182323.0
+du7:4167312.0
+du8:4182323.0
+du9:313128.0
+du10:228602.0
+du11:4157122.0
+du12:233476.0
+du13:262.0
+du14:204856.0
+du15:4.6509614E7
+du16:4.6509614E7
+du17:4174004.0
+du18:176356.0
+du19:267.0
+du20:1861129.0
+du21:272.0
+du22:297.0
+du23:408404.0
+du24:4153521.0
+du25:274.0
+du26:4167312.0
+du27:4171851.0
+du28:314191.0
+du29:4161831.0
+du30:1889.0
+du31:1599.0
+du32:282.0
+du33:4153521.0
+du34:251206.0
+du35:4170858.0
+du36:4163084.0
+du37:287.0
+du38:4157122.0
+du39:297231.0
+du40:271.0
+du41:265.0
+du42:4174004.0
+du43:4161831.0
+du44:4170858.0
+
+tasks
+t1-->OutputDatasets=du26;du7; |InputDatasets=d30;d27;
+predecessors tasks=[] |successors tasks=[t6, t7, t9, t17]
+
+t2-->OutputDatasets=du27;du5; |InputDatasets=d30;d35;
+predecessors tasks=[] |successors tasks=[t6, t7, t8, t10, t12, t13, t18]
+
+t3-->OutputDatasets=du38;du11; |InputDatasets=d30;d11;
+predecessors tasks=[] |successors tasks=[t9, t10, t11, t19]
+
+t4-->OutputDatasets=du17;du42; |InputDatasets=d30;d36;
+predecessors tasks=[] |successors tasks=[t8, t12, t14, t20]
+
+t5-->OutputDatasets=du24;du33; |InputDatasets=d30;d9;
+predecessors tasks=[] |successors tasks=[t13, t14, t21]
+
+t6-->OutputDatasets=du21;du23; |InputDatasets=d30;du26;du7;du27;du5;
+predecessors tasks=[t2, t1] |successors tasks=[t15]
+
+t7-->OutputDatasets=du32;du28; |InputDatasets=d30;d40;d1;d34;d21;
+predecessors tasks=[t2, t1] |successors tasks=[t15]
+
+t8-->OutputDatasets=du37;du10; |InputDatasets=d30;d23;d14;du17;du42;
+predecessors tasks=[t2, t4] |successors tasks=[t15]
+
+t9-->OutputDatasets=du21;du18; |InputDatasets=d30;du38;du11;d18;d43;
+predecessors tasks=[t3, t1] |successors tasks=[t15]
+
+t10-->OutputDatasets=du13;du12; |InputDatasets=d30;d10;d15;d8;d33;
+predecessors tasks=[t3, t2] |successors tasks=[t15]
+
+t11-->OutputDatasets=du19;du34; |InputDatasets=d30;d17;d32;
+predecessors tasks=[t3] |successors tasks=[t15]
+
+t12-->OutputDatasets=du25;du1; |InputDatasets=d30;d25;d20;d24;d4;
+predecessors tasks=[t2, t4] |successors tasks=[t15]
+
+t13-->OutputDatasets=du40;du9; |InputDatasets=d30;du24;du33;d19;d41;
+predecessors tasks=[t2, t5] |successors tasks=[t15]
+
+t14-->OutputDatasets=du22;du39; |InputDatasets=d30;d38;d22;d13;d6;
+predecessors tasks=[t5, t4] |successors tasks=[t15]
+
+t15-->OutputDatasets=du30; |InputDatasets=d3;du21;du23;
+predecessors tasks=[t13, t14, t11, t12, t7, t6, t10, t9, t8] |successors tasks=[t16]
+
+t16-->OutputDatasets=du41; |InputDatasets=d12;du30;
+predecessors tasks=[t15] |successors tasks=[t17, t18, t19, t20, t21]
+
+t17-->OutputDatasets=du3;du36; |InputDatasets=du41;d28;d2;
+predecessors tasks=[t1, t16] |successors tasks=[t22]
+
+t18-->OutputDatasets=du43;du29; |InputDatasets=du41;d5;d37;
+predecessors tasks=[t2, t16] |successors tasks=[t22]
+
+t19-->OutputDatasets=du6;du8; |InputDatasets=du41;d31;d7;
+predecessors tasks=[t3, t16] |successors tasks=[t22]
+
+t20-->OutputDatasets=du44;du35; |InputDatasets=du41;d16;d42;
+predecessors tasks=[t4, t16] |successors tasks=[t22]
+
+t21-->OutputDatasets=du4;du2; |InputDatasets=du41;d29;d39;
+predecessors tasks=[t5, t16] |successors tasks=[t22]
+
+t22-->OutputDatasets=du31; |InputDatasets=d26;du3;du36;du43;du29;du6;du8;du44;du35;du4;du2;
+predecessors tasks=[t21, t17, t18, t19, t20] |successors tasks=[t23]
+
+t23-->OutputDatasets=du16;du15; |InputDatasets=d30;du31;
+predecessors tasks=[t22] |successors tasks=[t24]
+
+t24-->OutputDatasets=du20; |InputDatasets=du16;du15;
+predecessors tasks=[t23] |successors tasks=[t25]
+
+t25-->OutputDatasets=du14; |InputDatasets=du20;
+predecessors tasks=[t24] |successors tasks=[]
+
+

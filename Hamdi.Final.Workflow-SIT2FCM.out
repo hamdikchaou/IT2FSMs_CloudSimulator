@@ -1,0 +1,110 @@
+t1: d18; d35; 
+t2: d23; du39; du44; 
+t3: d41; du45; du48; du46; 
+t4: d21; du15; 
+t5: d20; d43; du37; du39; 
+t6: d13; du38; du46; 
+t7: d2_f_dc12; d8_f_dc3; d14; d22; d26; du2; du11; du13; 
+t8: d50; du24; 
+t9: d14; du14; 
+t10: d40; du8; 
+t11: d48; du32; du33; du35; 
+t12: d9_f_dc13; d33; d39; d44; d48; du4; 
+t13: du20; du34; 
+t14: d18; du22; 
+t15: d9_f_dc13; d10_f_dc11; d29; d33; du12; 
+t16: d45; du16; du34; 
+t17: d25; d34; du15; 
+t18: d12; d30; d34; d45; du25; du42; du45; 
+t19: d5_f_dc10; d24; du28; du31; 
+t20: d22; d27; d36; du18; 
+t21: d1_f_dc1; du26; 
+t22: d17; d44; du21; 
+t23: d3_f_dc5; du24; du26; du27; du28; 
+t24: du30; du42; 
+t25: d2_f_dc12; d19; d32; du21; du36; 
+t26: d13; du40; 
+t27: d24; d50; du35; du36; 
+t28: d38; du43; du48; du49; 
+t29: du19; 
+t30: d3_f_dc5; d49; du37; du40; 
+t31: d23; d33; du2; 
+t32: du22; 
+t33: d4_f_dc2; d43; d44; d49; du6; 
+t34: d2_f_dc12; d4_f_dc2; d27; d50; du29; 
+t35: d29; d42; du4; 
+t36: du17; 
+t37: d11; d34; d46; d47; du3; 
+t38: d12; d15; du7; 
+t39: d13; d20; d31; du30; 
+t40: d12; du5; 
+t41: d7_f_dc1; d10_f_dc11; du32; 
+t42: du17; du23; du41; 
+t43: d6_f_dc12; du1; 
+t44: du10; du16; du20; 
+t45: d19; d42; du43; du47; 
+t46: d11; d15; d16; du23; 
+t47: d20; d32; du31; 
+t48: d3_f_dc5; d7_f_dc1; du1; 
+t49: d37; d38; d45; du9; 
+t50: d7_f_dc1; d22; d28; d30; du5; du13; 
+
+dc1 : d41 (71.0); d40 (92.0); d38 (86.0); d37 (24.0); d21 (2.0); d35 (30.0); d18 (56.0); d31 (87.0); d20 (126.0); d13 (25.0); d25 (56.0); d47 (31.0); d46 (102.0); d34 (3.0); d45 (84.0); 
+dc2 : d30 (44.0); d12 (69.0); d15 (67.0); d11 (47.0); d16 (38.0); d6_f_dc12 (46.0); d24 (28.0); d5_f_dc10 (94.0); d36 (16.0); d28 (104.0); d7_f_dc1 (107.0); d3_f_dc5 (114.0); d1_f_dc1 (89.0); 
+dc3 : d32 (78.0); d19 (52.0); d42 (64.0); d26 (89.0); d8_f_dc3 (60.0); d14 (6.0); d22 (74.0); d2_f_dc12 (106.0); d27 (28.0); d50 (82.0); d4_f_dc2 (65.0); d49 (41.0); d43 (101.0); d44 (40.0); d17 (82.0); d48 (105.0); d39 (68.0); d29 (117.0); d33 (4.0); d9_f_dc13 (40.0); d10_f_dc11 (83.0); d23 (27.0); 
+
+Round 1
+Scheduled Tasks:    t1:dc1; t4:dc1; t7:dc3; t8:dc3; t9:dc3; 
+Datasets Retrieved: t4:du15:dc2->dc1; t7:du2:dc1->dc3; t7:du11:dc3->dc3; t7:du13:dc3->dc3; t8:du24:dc2->dc3; t9:du14:dc1->dc3; Total: 6 (263.0)
+Datasets Sent:      du1:dc1->dc2; du5:dc3->dc2; Total: 2 (156.0)
+dc3 executing t9 and sending the result (3.0) to dc3 required a reschedule
+State before rescheduling:
+dc1 : d41 (71.0); d40 (92.0); d38 (86.0); d37 (24.0); d21 (2.0); d35 (30.0); d18 (56.0); d31 (87.0); d20 (126.0); d13 (25.0); d25 (56.0); d47 (31.0); d46 (102.0); d34 (3.0); d45 (84.0); du19 (44.0); 
+dc2 : d30 (44.0); d12 (69.0); d15 (67.0); d11 (47.0); d16 (38.0); d6_f_dc12 (46.0); d24 (28.0); d5_f_dc10 (94.0); d36 (16.0); d28 (104.0); d7_f_dc1 (107.0); d3_f_dc5 (114.0); d1_f_dc1 (89.0); du1 (80.0); du5 (76.0); 
+dc3 : d32 (78.0); d19 (52.0); d42 (64.0); d26 (89.0); d8_f_dc3 (60.0); d14 (6.0); d22 (74.0); d2_f_dc12 (106.0); d27 (28.0); d50 (82.0); d4_f_dc2 (65.0); d49 (41.0); d43 (101.0); d44 (40.0); d17 (82.0); d48 (105.0); d39 (68.0); d29 (117.0); d33 (4.0); d9_f_dc13 (40.0); d10_f_dc11 (83.0); d23 (27.0); du32 (118.0); 
+State after rescheduling:
+dc1 : d17 (82.0); d1_f_dc1 (89.0); d8_f_dc3 (60.0); d14 (6.0); d26 (89.0); d2_f_dc12 (106.0); d22 (74.0); d27 (28.0); d36 (16.0); d5_f_dc10 (94.0); d24 (28.0); d50 (82.0); d4_f_dc2 (65.0); d39 (68.0); d9_f_dc13 (40.0); d33 (4.0); d48 (105.0); d44 (40.0); d43 (101.0); d49 (41.0); 
+dc2 : d3_f_dc5 (114.0); du1 (80.0); d6_f_dc12 (46.0); du19 (44.0); d16 (38.0); d15 (67.0); d11 (47.0); d46 (102.0); d47 (31.0); d34 (3.0); d12 (69.0); d30 (44.0); du5 (76.0); d7_f_dc1 (107.0); d28 (104.0); d25 (56.0); 
+dc3 : d23 (27.0); du32 (118.0); d10_f_dc11 (83.0); d29 (117.0); d42 (64.0); d19 (52.0); d32 (78.0); d13 (25.0); d20 (126.0); d31 (87.0); d18 (56.0); d35 (30.0); d21 (2.0); d37 (24.0); d45 (84.0); d38 (86.0); d40 (92.0); du17 (3.0); d41 (71.0); 
+ - Dataset d17 moved to dc1
+ - Dataset d1_f_dc1 moved to dc1
+ - Dataset d8_f_dc3 moved to dc1
+ - Dataset d14 moved to dc1
+ - Dataset d26 moved to dc1
+ - Dataset d2_f_dc12 moved to dc1
+ - Dataset d22 moved to dc1
+ - Dataset d27 moved to dc1
+ - Dataset d36 moved to dc1
+ - Dataset d5_f_dc10 moved to dc1
+ - Dataset d24 moved to dc1
+ - Dataset d50 moved to dc1
+ - Dataset d4_f_dc2 moved to dc1
+ - Dataset d39 moved to dc1
+ - Dataset d9_f_dc13 moved to dc1
+ - Dataset d33 moved to dc1
+ - Dataset d48 moved to dc1
+ - Dataset d44 moved to dc1
+ - Dataset d43 moved to dc1
+ - Dataset d49 moved to dc1
+ - Dataset du19 moved to dc2
+ - Dataset d46 moved to dc2
+ - Dataset d47 moved to dc2
+ - Dataset d34 moved to dc2
+ - Dataset d25 moved to dc2
+ - Dataset d13 moved to dc3
+ - Dataset d20 moved to dc3
+ - Dataset d31 moved to dc3
+ - Dataset d18 moved to dc3
+ - Dataset d35 moved to dc3
+ - Dataset d21 moved to dc3
+ - Dataset d37 moved to dc3
+ - Dataset d45 moved to dc3
+ - Dataset d38 moved to dc3
+ - Dataset d40 moved to dc3
+ - Dataset du17 moved to dc3
+ - Dataset d41 moved to dc3
+Total movement during this redistribution:
+	37 (2140.0)
+
+Round 2
+

@@ -1,0 +1,168 @@
+datasets intilales
+p2mass-atlas-ID00001s-jID00001_area.fits:4185623.0
+p2mass-atlas-ID00000s-jID00000_area.fits:4163084.0
+fits_list.tbl:245.0
+p2mass-atlas-ID00001s-jID00001_area.fits:4170398.0
+p2mass-atlas-ID00001s-jID00001.fits:4161831.0
+p2mass-atlas-ID00003s-jID00003_area.fits:4163196.0
+p2mass-atlas-ID00002s-jID00002_area.fits:4182323.0
+p2mass-atlas-ID00001s-jID00001.fits:4150602.0
+2mass-atlas-ID00004s-jID00004.fits:4222080.0
+p2mass-atlas-ID00002s-jID00002.fits:4149806.0
+2mass-atlas-ID00002s-jID00002.fits:4222080.0
+pimages.tbl:837.0
+p2mass-atlas-ID00003s-jID00003.fits:4163196.0
+p2mass-atlas-ID00001s-jID00001_area.fits:4155530.0
+p2mass-atlas-ID00002s-jID00002_area.fits:4149806.0
+p2mass-atlas-ID00003s-jID00003.fits:4170858.0
+p2mass-atlas-ID00002s-jID00002.fits:4152397.0
+p2mass-atlas-ID00000s-jID00000.fits:4143677.0
+p2mass-atlas-ID00001s-jID00001.fits:4155664.0
+p2mass-atlas-ID00003s-jID00003_area.fits:4173072.0
+p2mass-atlas-ID00000s-jID00000_area.fits:4181449.0
+p2mass-atlas-ID00004s-jID00004_area.fits:4141389.0
+p2mass-atlas-ID00001s-jID00001.fits:4155530.0
+p2mass-atlas-ID00001s-jID00001.fits:4170398.0
+p2mass-atlas-ID00003s-jID00003.fits:4173072.0
+cimages.tbl:837.0
+2mass-atlas-ID00000s-jID00000.fits:4222080.0
+p2mass-atlas-ID00000s-jID00000.fits:4163084.0
+p2mass-atlas-ID00004s-jID00004.fits:4157647.0
+region.hdr:304.0
+p2mass-atlas-ID00002s-jID00002.fits:4182323.0
+p2mass-atlas-ID00002s-jID00002_area.fits:4152397.0
+p2mass-atlas-ID00001s-jID00001_area.fits:4150602.0
+p2mass-atlas-ID00000s-jID00000.fits:4181449.0
+2mass-atlas-ID00001s-jID00001.fits:4222080.0
+2mass-atlas-ID00003s-jID00003.fits:4222080.0
+p2mass-atlas-ID00001s-jID00001_area.fits:4161831.0
+p2mass-atlas-ID00004s-jID00004.fits:4141389.0
+p2mass-atlas-ID00004s-jID00004_area.fits:4157647.0
+p2mass-atlas-ID00001s-jID00001.fits:4185623.0
+p2mass-atlas-ID00001s-jID00001_area.fits:4155664.0
+p2mass-atlas-ID00003s-jID00003_area.fits:4170858.0
+p2mass-atlas-ID00000s-jID00000_area.fits:4143677.0
+
+datasets g�n�r�es
+diff.txt:271248.0
+c2mass-atlas-ID00004s-jID00004_area.fits:4157647.0
+c2mass-atlas-ID00000s-jID00000_area.fits:4163084.0
+c2mass-atlas-ID00004s-jID00004.fits:4157647.0
+p2mass-atlas-ID00001s-jID00001_area.fits:4171851.0
+c2mass-atlas-ID00002s-jID00002_area.fits:4182323.0
+p2mass-atlas-ID00000s-jID00000_area.fits:4167312.0
+c2mass-atlas-ID00002s-jID00002.fits:4182323.0
+diff.txt:313128.0
+diff.txt:228602.0
+p2mass-atlas-ID00002s-jID00002_area.fits:4157122.0
+diff.txt:233476.0
+fit.txt:262.0
+shrunken_ID00023_ID00023.jpg:204856.0
+mosaic_ID00022_ID00022_area.fits:4.6509614E7
+mosaic_ID00022_ID00022.fits:4.6509614E7
+p2mass-atlas-ID00003s-jID00003.fits:4174004.0
+diff.txt:176356.0
+fit.txt:267.0
+shrunken_ID00023_ID00023.fits:1861129.0
+fit.txt:272.0
+fit.txt:297.0
+diff.txt:408404.0
+p2mass-atlas-ID00004s-jID00004.fits:4153521.0
+fit.txt:274.0
+p2mass-atlas-ID00000s-jID00000.fits:4167312.0
+p2mass-atlas-ID00001s-jID00001.fits:4171851.0
+diff.txt:314191.0
+c2mass-atlas-ID00001s-jID00001.fits:4161831.0
+fits.tbl:1889.0
+newcimages.tbl:1599.0
+fit.txt:282.0
+p2mass-atlas-ID00004s-jID00004_area.fits:4153521.0
+diff.txt:251206.0
+c2mass-atlas-ID00003s-jID00003_area.fits:4170858.0
+c2mass-atlas-ID00000s-jID00000.fits:4163084.0
+fit.txt:287.0
+p2mass-atlas-ID00002s-jID00002.fits:4157122.0
+diff.txt:297231.0
+fit.txt:271.0
+corrections.tbl:265.0
+p2mass-atlas-ID00003s-jID00003_area.fits:4174004.0
+c2mass-atlas-ID00001s-jID00001_area.fits:4161831.0
+c2mass-atlas-ID00003s-jID00003.fits:4170858.0
+
+tasks
+ID00000-->OutputDatasets=p2mass-atlas-ID00000s-jID00000.fits;p2mass-atlas-ID00000s-jID00000_area.fits; |InputDatasets=region.hdr;2mass-atlas-ID00000s-jID00000.fits;
+predecessors tasks=[] |successors tasks=[ID00005, ID00006, ID00008, ID00016]
+
+ID00001-->OutputDatasets=p2mass-atlas-ID00001s-jID00001.fits;p2mass-atlas-ID00001s-jID00001_area.fits; |InputDatasets=region.hdr;2mass-atlas-ID00001s-jID00001.fits;
+predecessors tasks=[] |successors tasks=[ID00005, ID00006, ID00007, ID00009, ID00011, ID00012, ID00017]
+
+ID00002-->OutputDatasets=p2mass-atlas-ID00002s-jID00002.fits;p2mass-atlas-ID00002s-jID00002_area.fits; |InputDatasets=region.hdr;2mass-atlas-ID00002s-jID00002.fits;
+predecessors tasks=[] |successors tasks=[ID00008, ID00009, ID00010, ID00018]
+
+ID00003-->OutputDatasets=p2mass-atlas-ID00003s-jID00003.fits;p2mass-atlas-ID00003s-jID00003_area.fits; |InputDatasets=region.hdr;2mass-atlas-ID00003s-jID00003.fits;
+predecessors tasks=[] |successors tasks=[ID00007, ID00011, ID00013, ID00019]
+
+ID00004-->OutputDatasets=p2mass-atlas-ID00004s-jID00004.fits;p2mass-atlas-ID00004s-jID00004_area.fits; |InputDatasets=region.hdr;2mass-atlas-ID00004s-jID00004.fits;
+predecessors tasks=[] |successors tasks=[ID00012, ID00013, ID00020]
+
+ID00005-->OutputDatasets=fit.txt;diff.txt; |InputDatasets=region.hdr;p2mass-atlas-ID00000s-jID00000.fits;p2mass-atlas-ID00000s-jID00000_area.fits;p2mass-atlas-ID00001s-jID00001.fits;p2mass-atlas-ID00001s-jID00001_area.fits;
+predecessors tasks=[ID00001, ID00000] |successors tasks=[ID00014]
+
+ID00006-->OutputDatasets=fit.txt;diff.txt; |InputDatasets=region.hdr;p2mass-atlas-ID00001s-jID00001.fits;p2mass-atlas-ID00001s-jID00001_area.fits;p2mass-atlas-ID00000s-jID00000.fits;p2mass-atlas-ID00000s-jID00000_area.fits;
+predecessors tasks=[ID00001, ID00000] |successors tasks=[ID00014]
+
+ID00007-->OutputDatasets=fit.txt;diff.txt; |InputDatasets=region.hdr;p2mass-atlas-ID00001s-jID00001.fits;p2mass-atlas-ID00001s-jID00001_area.fits;p2mass-atlas-ID00003s-jID00003.fits;p2mass-atlas-ID00003s-jID00003_area.fits;
+predecessors tasks=[ID00001, ID00003] |successors tasks=[ID00014]
+
+ID00008-->OutputDatasets=fit.txt;diff.txt; |InputDatasets=region.hdr;p2mass-atlas-ID00002s-jID00002.fits;p2mass-atlas-ID00002s-jID00002_area.fits;p2mass-atlas-ID00000s-jID00000.fits;p2mass-atlas-ID00000s-jID00000_area.fits;
+predecessors tasks=[ID00002, ID00000] |successors tasks=[ID00014]
+
+ID00009-->OutputDatasets=fit.txt;diff.txt; |InputDatasets=region.hdr;p2mass-atlas-ID00002s-jID00002.fits;p2mass-atlas-ID00002s-jID00002_area.fits;p2mass-atlas-ID00001s-jID00001.fits;p2mass-atlas-ID00001s-jID00001_area.fits;
+predecessors tasks=[ID00002, ID00001] |successors tasks=[ID00014]
+
+ID00010-->OutputDatasets=fit.txt;diff.txt; |InputDatasets=region.hdr;p2mass-atlas-ID00002s-jID00002.fits;p2mass-atlas-ID00002s-jID00002_area.fits;
+predecessors tasks=[ID00002] |successors tasks=[ID00014]
+
+ID00011-->OutputDatasets=fit.txt;diff.txt; |InputDatasets=region.hdr;p2mass-atlas-ID00003s-jID00003.fits;p2mass-atlas-ID00003s-jID00003_area.fits;p2mass-atlas-ID00001s-jID00001.fits;p2mass-atlas-ID00001s-jID00001_area.fits;
+predecessors tasks=[ID00001, ID00003] |successors tasks=[ID00014]
+
+ID00012-->OutputDatasets=fit.txt;diff.txt; |InputDatasets=region.hdr;p2mass-atlas-ID00004s-jID00004.fits;p2mass-atlas-ID00004s-jID00004_area.fits;p2mass-atlas-ID00001s-jID00001.fits;p2mass-atlas-ID00001s-jID00001_area.fits;
+predecessors tasks=[ID00001, ID00004] |successors tasks=[ID00014]
+
+ID00013-->OutputDatasets=fit.txt;diff.txt; |InputDatasets=region.hdr;p2mass-atlas-ID00004s-jID00004.fits;p2mass-atlas-ID00004s-jID00004_area.fits;p2mass-atlas-ID00003s-jID00003.fits;p2mass-atlas-ID00003s-jID00003_area.fits;
+predecessors tasks=[ID00004, ID00003] |successors tasks=[ID00014]
+
+ID00014-->OutputDatasets=fits.tbl; |InputDatasets=fits_list.tbl;fit.txt;diff.txt;
+predecessors tasks=[ID00012, ID00013, ID00010, ID00011, ID00006, ID00005, ID00009, ID00008, ID00007] |successors tasks=[ID00015]
+
+ID00015-->OutputDatasets=corrections.tbl; |InputDatasets=pimages.tbl;fits.tbl;
+predecessors tasks=[ID00014] |successors tasks=[ID00016, ID00017, ID00018, ID00019, ID00020]
+
+ID00016-->OutputDatasets=c2mass-atlas-ID00000s-jID00000_area.fits;c2mass-atlas-ID00000s-jID00000.fits; |InputDatasets=corrections.tbl;p2mass-atlas-ID00000s-jID00000.fits;p2mass-atlas-ID00000s-jID00000_area.fits;
+predecessors tasks=[ID00000, ID00015] |successors tasks=[ID00021]
+
+ID00017-->OutputDatasets=c2mass-atlas-ID00001s-jID00001_area.fits;c2mass-atlas-ID00001s-jID00001.fits; |InputDatasets=corrections.tbl;p2mass-atlas-ID00001s-jID00001.fits;p2mass-atlas-ID00001s-jID00001_area.fits;
+predecessors tasks=[ID00001, ID00015] |successors tasks=[ID00021]
+
+ID00018-->OutputDatasets=c2mass-atlas-ID00002s-jID00002_area.fits;c2mass-atlas-ID00002s-jID00002.fits; |InputDatasets=corrections.tbl;p2mass-atlas-ID00002s-jID00002.fits;p2mass-atlas-ID00002s-jID00002_area.fits;
+predecessors tasks=[ID00002, ID00015] |successors tasks=[ID00021]
+
+ID00019-->OutputDatasets=c2mass-atlas-ID00003s-jID00003.fits;c2mass-atlas-ID00003s-jID00003_area.fits; |InputDatasets=corrections.tbl;p2mass-atlas-ID00003s-jID00003.fits;p2mass-atlas-ID00003s-jID00003_area.fits;
+predecessors tasks=[ID00003, ID00015] |successors tasks=[ID00021]
+
+ID00020-->OutputDatasets=c2mass-atlas-ID00004s-jID00004.fits;c2mass-atlas-ID00004s-jID00004_area.fits; |InputDatasets=corrections.tbl;p2mass-atlas-ID00004s-jID00004.fits;p2mass-atlas-ID00004s-jID00004_area.fits;
+predecessors tasks=[ID00004, ID00015] |successors tasks=[ID00021]
+
+ID00021-->OutputDatasets=newcimages.tbl; |InputDatasets=cimages.tbl;c2mass-atlas-ID00000s-jID00000_area.fits;c2mass-atlas-ID00000s-jID00000.fits;c2mass-atlas-ID00001s-jID00001_area.fits;c2mass-atlas-ID00001s-jID00001.fits;c2mass-atlas-ID00002s-jID00002_area.fits;c2mass-atlas-ID00002s-jID00002.fits;c2mass-atlas-ID00003s-jID00003.fits;c2mass-atlas-ID00003s-jID00003_area.fits;c2mass-atlas-ID00004s-jID00004.fits;c2mass-atlas-ID00004s-jID00004_area.fits;
+predecessors tasks=[ID00020, ID00016, ID00017, ID00018, ID00019] |successors tasks=[ID00022]
+
+ID00022-->OutputDatasets=mosaic_ID00022_ID00022.fits;mosaic_ID00022_ID00022_area.fits; |InputDatasets=region.hdr;newcimages.tbl;
+predecessors tasks=[ID00021] |successors tasks=[ID00023]
+
+ID00023-->OutputDatasets=shrunken_ID00023_ID00023.fits; |InputDatasets=mosaic_ID00022_ID00022.fits;mosaic_ID00022_ID00022_area.fits;
+predecessors tasks=[ID00022] |successors tasks=[ID00024]
+
+ID00024-->OutputDatasets=shrunken_ID00023_ID00023.jpg; |InputDatasets=shrunken_ID00023_ID00023.fits;
+predecessors tasks=[ID00023] |successors tasks=[]
+
+

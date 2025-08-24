@@ -1,0 +1,77 @@
+t1: d6_f_dc11; d16_f_dc4; d30; 
+t2: d3_f_dc4; d30; du38; 
+t3: d4_f_dc13; d18_f_dc11; du10; 
+t4: d32; d37; du27; 
+t5: d26; d27; du32; du13; 
+t6: d1_f_dc3; d42; d44; du11; 
+t7: d9_f_dc15; d15_f_dc5; du29; 
+t8: du1; du20; 
+t9: d25; d29; du14; 
+t10: d14_f_dc4; du4; 
+t11: d3_f_dc4; d5_f_dc8; d15_f_dc5; d43; d48; d49; du15; du18; 
+t12: d38; d43; du35; du36; du37; 
+t13: du30; 
+t14: d25; d41; d42; du5; du7; du21; 
+t15: d43; du19; 
+t16: d39; du2; 
+t17: d12_f_dc5; d50; du30; du39; 
+t18: d7_f_dc2; du3; 
+t19: d7_f_dc2; du33; 
+t20: du3; 
+t21: d33; d35; du48; 
+t22: d46; du31; 
+t23: d47; du46; du43; 
+t24: d3_f_dc4; d50; du5; du21; 
+t25: d21; d25; d31; du27; 
+t26: d13_f_dc15; d34; d38; du11; 
+t27: d20_f_dc5; du9; du20; du28; du34; 
+t28: d1_f_dc3; d17_f_dc11; d24; d32; d45; du48; du49; 
+t29: d13_f_dc15; du22; du23; du31; du40; 
+t30: d36; du6; 
+t31: d2_f_dc7; du15; 
+t32: d4_f_dc13; d23; du24; 
+t33: du16; du22; 
+t34: d23; d39; du9; 
+t35: du42; du44; 
+t36: d9_f_dc15; d17_f_dc11; du32; du35; 
+t37: d8_f_dc8; d10_f_dc3; du13; 
+t38: du10; 
+t39: d11_f_dc11; d40; du36; du41; 
+t40: d45; du46; du47; 
+t41: du14; 
+t42: d15_f_dc5; d35; d38; du12; du17; 
+t43: d28; d32; d37; du1; 
+t44: d5_f_dc8; du19; 
+t45: d20_f_dc5; d23; d30; d31; d35; d46; du24; 
+t46: d4_f_dc13; d29; du25; du29; 
+t47: d9_f_dc15; d12_f_dc5; d19_f_dc15; du37; du41; du45; 
+t48: d22; du26; 
+t49: d8_f_dc8; d31; d42; d50; du8; 
+t50: du43; 
+
+dc3 : d1_f_dc3 (119.0); d10_f_dc3 (58.0); d38 (82.0); 
+dc7 : d2_f_dc7 (124.0); d45 (115.0); d46 (10.0); 
+dc4 : d3_f_dc4 (30.0); d14_f_dc4 (41.0); d16_f_dc4 (65.0); 
+dc13 : d4_f_dc13 (8.0); d35 (105.0); d37 (11.0); 
+dc8 : d5_f_dc8 (98.0); d8_f_dc8 (100.0); 
+dc11 : d6_f_dc11 (12.0); d11_f_dc11 (71.0); d17_f_dc11 (103.0); d18_f_dc11 (2.0); d28 (20.0); d31 (36.0); d33 (70.0); 
+dc2 : d7_f_dc2 (51.0); d24 (77.0); d39 (78.0); d41 (2.0); d42 (88.0); d44 (44.0); 
+dc15 : d9_f_dc15 (128.0); d13_f_dc15 (93.0); d19_f_dc15 (4.0); d34 (83.0); 
+dc5 : d12_f_dc5 (32.0); d15_f_dc5 (75.0); d20_f_dc5 (47.0); d27 (11.0); d36 (95.0); 
+dc10 : d21 (84.0); d22 (68.0); d23 (122.0); d43 (79.0); d48 (61.0); d50 (103.0); 
+dc14 : d25 (81.0); d29 (29.0); d47 (20.0); 
+dc12 : d26 (111.0); d30 (59.0); 
+dc6 : d32 (1.0); 
+dc1 : d40 (56.0); 
+dc9 : d49 (126.0); 
+
+Round 1
+Scheduled Tasks:    t1:dc4; t2:dc4; t3:dc13; t4:dc13; t5:dc13; t6:dc2; t7:dc15; t8:dc4; t9:dc14; t10:dc4; t11:dc10; t12:dc3; t13:dc3; t14:dc2; t15:dc10; t16:dc4; t17:dc5; t18:dc2; t19:dc2; t20:dc3; t21:dc13; t22:dc7; t23:dc14; t24:dc4; t25:dc11; t26:dc15; t27:dc2; t28:dc3; t29:dc3; t30:dc3; t31:dc7; t32:dc13; t33:dc2; t34:dc2; t35:dc4; t36:dc13; t37:dc3; t38:dc3; t39:dc3; t40:dc7; t41:dc13; t42:dc3; t43:dc4; t44:dc3; t45:dc7; t46:dc13; t47:dc15; t48:dc3; t49:dc4; t50:dc15; 
+Datasets Retrieved: t1:d6_f_dc11:dc4; t1:d30:dc4; t2:d30:dc4; t2:du38:dc4; t3:d18_f_dc11:dc13; t3:du10:dc13; t4:d32:dc13; t4:du27:dc13; t5:d26:dc13; t5:d27:dc13; t5:du13:dc13; t6:d1_f_dc3:dc2; t6:du11:dc2; t7:d15_f_dc5:dc15; t7:du29:dc15; t8:du20:dc4; t9:du14:dc14; t10:du4:dc4; t11:d3_f_dc4:dc10; t11:d5_f_dc8:dc10; t11:d15_f_dc5:dc10; t11:d49:dc10; t11:du15:dc10; t11:du18:dc10; t12:d43:dc3; t12:du35:dc3; t12:du36:dc3; t12:du37:dc3; t13:du30:dc3; t14:d25:dc2; t14:du5:dc2; t14:du7:dc2; t14:du21:dc2; t15:du19:dc10; t16:d39:dc4; t17:d50:dc5; t17:du30:dc5; t17:du39:dc5; t18:du3:dc2; t19:du33:dc2; t20:du3:dc3; t21:d33:dc13; t21:du48:dc13; t22:du31:dc7; t23:du46:dc14; t23:du43:dc14; t24:d50:dc4; t24:du5:dc4; t24:du21:dc4; t25:d21:dc11; t25:d25:dc11; t25:du27:dc11; t26:d38:dc15; t26:du11:dc15; t27:d20_f_dc5:dc2; t27:du20:dc2; t27:du28:dc2; t27:du34:dc2; t28:d17_f_dc11:dc3; t28:d24:dc3; t28:d32:dc3; t28:d45:dc3; t28:du48:dc3; t28:du49:dc3; t29:d13_f_dc15:dc3; t29:du22:dc3; t29:du23:dc3; t29:du31:dc3; t30:d36:dc3; t31:du15:dc7; t32:d23:dc13; t32:du24:dc13; t33:du22:dc2; t34:d23:dc2; t35:du42:dc4; t36:d9_f_dc15:dc13; t36:d17_f_dc11:dc13; t36:du35:dc13; t37:d8_f_dc8:dc3; t37:du13:dc3; t39:d11_f_dc11:dc3; t39:d40:dc3; t39:du36:dc3; t40:du46:dc7; t40:du47:dc7; t42:d15_f_dc5:dc3; t42:d35:dc3; t42:du12:dc3; t42:du17:dc3; t43:d28:dc4; t43:d32:dc4; t43:d37:dc4; t44:d5_f_dc8:dc3; t45:d20_f_dc5:dc7; t45:d23:dc7; t45:d30:dc7; t45:d31:dc7; t45:d35:dc7; t45:du24:dc7; t46:d29:dc13; t46:du25:dc13; t47:d12_f_dc5:dc15; t47:du37:dc15; t47:du41:dc15; t47:du45:dc15; t48:d22:dc3; t49:d8_f_dc8:dc4; t49:d31:dc4; t49:d42:dc4; t49:d50:dc4; Total: 110 (7255.0)
+Datasets Sent:      Total: 0 (0.0)
+
+Total Retrieved: 110 (7255.0)
+Total Sent:      0 (0.0)
+                 -------------
+Total Movement:  110 (7255.0)
+
